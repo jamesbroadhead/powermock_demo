@@ -1,0 +1,7 @@
+.project/
+bazel
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-powermock_demo
+bazel-testlogs
