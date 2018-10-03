@@ -9,6 +9,12 @@ maven_jar(
 )
 
 maven_jar(
+    name = 'powermock_mockito_common',
+    artifact = 'org.powermock:powermock-api-mockito-common:1.7.4'
+)
+
+
+maven_jar(
     name = 'powermock_junit4',
     artifact = 'org.powermock:powermock-module-junit4:1.7.4'
 )

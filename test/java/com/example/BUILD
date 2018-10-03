@@ -5,7 +5,9 @@ java_test(
     test_class = "com.example.OldPowerMockTest",
     srcs = glob(["OldPowerMockTest.java"]),
     deps = [
+        "//:greeter",
         "@junit//jar",
+        "@powermock_mockito_common//jar",
         "@powermock_mockito//jar",
         '@powermock_core//jar',
         '@powermock_api//jar',
@@ -25,6 +27,7 @@ java_test(
     test_class = "com.example.NewPowerMockTest",
     srcs = glob(["NewPowerMockTest.java"]),
     deps = [
+        "//:greeter",
         "@junit//jar",
         "@powermock2_mockito//jar",
         '@powermock2_core//jar',

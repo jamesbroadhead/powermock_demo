@@ -6,6 +6,12 @@ java_binary(
 
 java_library(
     name = "greeter",
-    srcs = ["src/main/java/com/example/Greeting.java"],
-    visibility = ["//src/main/java/com/example/cmdline:__pkg__"],
+    srcs = [
+        "src/main/java/com/example/Greeting.java",
+        "src/main/java/com/example/ClassToMock.java"
+    ],
+    visibility = [
+        "//src/main/java/com/example/cmdline:__pkg__",
+        "//test/java/com/example:__pkg__",
+        ],
 )
