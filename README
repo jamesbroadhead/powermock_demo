@@ -1,0 +1,4 @@
+
+= Tests
+
+* `bazel query //... | xargs bazel test`
