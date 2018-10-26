@@ -1,6 +1,6 @@
 maven_jar(
     name = 'powermock2_mockito',
-    artifact = 'org.powermock:powermock-api-mockito2:2.0.0-beta.5'
+    artifact = 'org.powermock:powermock-api-mockito2:2.0.0-RC.1'
 )
 
 maven_jar(
@@ -37,19 +37,19 @@ maven_jar(
 
 maven_jar(
     name = 'powermock2_core',
-    artifact = "org.powermock:powermock-core:2.0.0-beta.5")
+    artifact = "org.powermock:powermock-core:2.0.0-RC.1")
 maven_jar(
     name = 'powermock2_api',
-    artifact = "org.powermock:powermock-api-support:2.0.0-beta.5")
+    artifact = "org.powermock:powermock-api-support:2.0.0-RC.1")
 maven_jar(
     name = 'powermock2_junit4',
-    artifact = "org.powermock:powermock-module-junit4:2.0.0-beta.5")
+    artifact = "org.powermock:powermock-module-junit4:2.0.0-RC.1")
 maven_jar(
     name = 'powermock2_junit4_common',
-    artifact = "org.powermock:powermock-module-junit4-common:2.0.0-beta.5")
+    artifact = "org.powermock:powermock-module-junit4-common:2.0.0-RC.1")
 maven_jar(
     name = 'powermock2_reflect',
-    artifact = "org.powermock:powermock-reflect:2.0.0-beta.5")
+    artifact = "org.powermock:powermock-reflect:2.0.0-RC.1")
 
 
 
