@@ -1,13 +1,6 @@
-java_binary(
-    name = "ProjectRunner",
-    srcs = glob(["src/main/java/com/example/*.java"]),
-    deps = [":greeter"],
-)
-
 java_library(
-    name = "greeter",
+    name = "class_to_mock",
     srcs = [
-        "src/main/java/com/example/Greeting.java",
         "src/main/java/com/example/ClassToMock.java"
     ],
     visibility = [

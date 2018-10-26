@@ -2,10 +2,10 @@
 
 java_test(
     name = 'old_powermock_tests',
-    test_class = 'com.example.OldPowerMockTest',
-    srcs = glob(['OldPowerMockTest.java']),
+    test_class = 'com.example.PowerMockTest',
+    srcs = glob(['PowerMockTest.java']),
     deps = [
-        '//:greeter',
+        '//:class_to_mock',
         '@byte_buddy//jar',
         '@byte_buddy_agent//jar',
         '@javassist//jar',
@@ -24,10 +24,10 @@ java_test(
 
 java_test(
     name = 'new_powermock_tests',
-    test_class = 'com.example.NewPowerMockTest',
-    srcs = glob(['NewPowerMockTest.java']),
+    test_class = 'com.example.PowerMockTest',
+    srcs = glob(['PowerMockTest.java']),
     deps = [
-        '//:greeter',
+        '//:class_to_mock',
         '@byte_buddy//jar',
         '@byte_buddy_agent//jar',
         '@javassist//jar',
